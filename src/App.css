@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
 
 html {
   /* font-size: 10px; */
@@ -38,18 +40,15 @@ body{
 .logo{
   height: 100%;
   margin-right: 0.6rem;
+
 }
 
 .header--title{
-  font-size:2rem;
+  font-size:4rem;
   margin-right: auto;
+  font-family: 'Rubik Iso', cursive;
 }
 
-.header-sub-title{
-font-size:1.2rem;
-font-weight:500;
-
-}
 
 .form {
   display: grid;
@@ -84,6 +83,7 @@ padding: 3.6rem;
   border: none;
   cursor: pointer;
   /* margin-bottom:px; */
+  font-size: 2rem;
 }
 
 
