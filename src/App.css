@@ -10,7 +10,7 @@ html {
 
 body{
   height: 100vh;
-  background-color: lightcoral;
+  background-color:black;
   width:100vw;
   height: 100vh;
   display: flex;
@@ -18,12 +18,19 @@ body{
   align-items: center;
 }
 
-
-.main-header{
-  width: 100%;
-  height: 90%;
-  background-color: #fff;
+h1 {
+  margin-left: 2px;
 }
+
+
+main {
+  padding: 3.6rem;
+  background-color:#ffffff;
+  max-width:100%;
+  padding-bottom: 52px;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  }
 
 .navbar{
   /* width:55rem; */
@@ -33,20 +40,22 @@ body{
   align-items: center;
   color:white;
   padding:2rem;
-  
-  
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+   
 }
-
 .logo{
-  height: 100%;
-  margin-right: 0.6rem;
+  height: 130%;
+  margin-left: -0.1rem;
 
-}
+
+} 
 
 .header--title{
-  font-size:4rem;
+  font-size:6rem;
   margin-right: auto;
   font-family: 'Rubik Iso', cursive;
+
 }
 
 
@@ -61,17 +70,12 @@ body{
  
 }
 
-main {
-padding: 3.6rem;
-
-
-}
-
 .form--input {
   font-family: "Karla", sans-serif;
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
+  font-size:large;
 }
 
 .form--button {
@@ -83,22 +87,19 @@ padding: 3.6rem;
   border: none;
   cursor: pointer;
   /* margin-bottom:px; */
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 
 .meme {
   position: relative;
-  top:10px;
+  top:20px;
 
 }
-
 .meme--image {
-  max-width: 100%;
-  height: 50%;
+  /* max-width: 100%; */
+  /* height: 100%; */
   border-radius: 3px;
-  
-
 }
 
 .meme--text {

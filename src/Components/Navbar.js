@@ -5,7 +5,7 @@ export default function Navbar(){
     return (
         <div>
             <nav className = "navbar">
-            <img className = "logo" src={logo} alt = "logo"/>
+            /<img className = "logo" src={logo} alt = "logo"/>
             <h1 className="header--title">Meme Generator</h1>
         
             </nav>
